@@ -3,7 +3,7 @@ import ProductCard from "./Cards/cardLayout";
 const products = [
   {
     id: '1',
-    image: "src/imgs/icons8-mouse-generico-50.png",
+    image: "/imgs/icons8-mouse-generico-50.png",
     name: "Produto 1",
     description: "Descrição do Produto 1",
   },

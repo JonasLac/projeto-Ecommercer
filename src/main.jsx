@@ -23,7 +23,7 @@ const App = () => {
           <header>
             <div className='flex justify-center p-11 text-3xl font-semibold bg-red-200'> 
               <h1>
-                Ecomerce
+                Ecommerce
               </h1>
             </div>
             <HeaderPage onFilterChange={handleFilterChange} />

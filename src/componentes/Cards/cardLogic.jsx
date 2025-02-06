@@ -29,7 +29,7 @@ const CardLayout = ({ image, tipo , name, description }) => {
         <p className="text-gray-600 mt-2 cursor-pointer">{description}</p>
         <p className="text-gray-600 mt-2 cursor-pointer">{tipo}</p>
         <button className="flex justify-center cursor-pointer w-20 mt-4 bg-red-400 text-white py-2 px-4 rounded-lg hover:bg-red-700">
-        <img className='h-5' src="src/imgs/carrinho-de-compras.png" alt="carrinho" />
+        <img className='h-5' src="/imgs/carrinho-de-compras.png" alt="carrinho" />
         </button>       
       </div>
     </div>
