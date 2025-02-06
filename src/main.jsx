@@ -29,8 +29,8 @@ const App = () => {
             <HeaderPage onFilterChange={handleFilterChange} />
           </header>
 
-          <main className="p-25 w-auto h-auto">  
-            <div className="flex justify-around">
+          <main className="flex justify-center p-5 w-auto h-auto">  
+            <div className="flex justify-around w-auto h-auto">
               <CardLogic products={filteredProducts} />
             </div>
           </main>

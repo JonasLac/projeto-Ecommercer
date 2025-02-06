@@ -18,7 +18,7 @@ const CardLogic = ({ products }) => {
 
 const CardLayout = ({ image, tipo , name, description }) => {
   return (
-    <div className="h-auto w-auto cursor-pointer bg-red-50 flex justify-center rounded-2xl shadow-lg p-4 transition-transform transform hover:scale-105 gap">
+    <div className="h-auto w-75 cursor-pointer bg-red-50 flex justify-center rounded-2xl shadow-lg p-4 transition-transform transform hover:scale-105 gap">
       <img
         src={image}
         alt={name}
